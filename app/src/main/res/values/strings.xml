@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">olympicwintergames</string>
+    <string name="winter_olympics_logo">Winter Olympics Logo</string>
+    <string name="logo">Winter Olympics Logo</string>
 </resources>
