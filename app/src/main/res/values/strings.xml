@@ -2,4 +2,6 @@
     <string name="app_name">olympicwintergames</string>
     <string name="winter_olympics_logo">Winter Olympics Logo</string>
     <string name="logo">Winter Olympics Logo</string>
+    <string name="click_anywhere_to_begin">Click Anywhere to Begin</string>
+    <string name="touch_screen_to_begin">Touch Screen to Begin</string>
 </resources>
