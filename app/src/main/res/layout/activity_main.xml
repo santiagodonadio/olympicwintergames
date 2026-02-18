@@ -11,11 +11,12 @@
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#050202"
+        android:contentDescription="@string/logo"
+        android:onClick="goToHome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/winterolympicslogo"
-        android:contentDescription="@string/logo"
-        />
+        app:srcCompat="@drawable/winterolympicslogo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

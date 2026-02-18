@@ -8,6 +8,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import android.content.Intent;
+
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -21,4 +24,10 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    public void goToHome(android.view.View view) {
+        Intent intent = new Intent(this, MainActivity2.class);
+        startActivity(intent);
+    }
+
 }
