@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/snowboarder"
-        android:layout_width="155dp"
-        android:layout_height="227dp"
+        android:layout_width="119dp"
+        android:layout_height="196dp"
         android:layout_marginStart="47dp"
         android:layout_marginTop="178dp"
         android:layout_marginEnd="209dp"
@@ -18,9 +18,88 @@
         android:onClick="goToSnowboard"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.258"
         app:srcCompat="@drawable/snowboarding" />
+
+    <ImageView
+        android:id="@+id/curling"
+        android:layout_width="174dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="369dp"
+        android:onClick="goToCurling"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/snowboarder"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/curling" />
+
+    <ImageView
+        android:id="@+id/skating"
+        android:layout_width="163dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="199dp"
+        android:layout_marginBottom="129dp"
+        android:onClick="goToSkating"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snowboarder"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/skating" />
+
+    <ImageView
+        android:id="@+id/skeleton"
+        android:layout_width="130dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="149dp"
+        android:onClick="goToSkeleton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/skating"
+        app:layout_constraintTop_toBottomOf="@+id/curling"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/skeleton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="30dp"
+        android:text="Olympic Winter Games"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="36dp"
+        android:text="Click an Image to Explore"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/snowboarder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

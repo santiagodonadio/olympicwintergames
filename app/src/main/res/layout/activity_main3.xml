@@ -7,4 +7,64 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="558dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snowboardTitle">
+
+        <TextView
+            android:id="@+id/snowboardingDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Women’s Parallel Giant Slalom\n\t1. Gold: Zuzana Maděrová (CZE)\n\t2. Sliver: Sabine Payer (AUT)\n\t3. Bronze: Lucia Dalmasso (ITA)\n\nMen’s Parallel Giant Slalom\n\t1. Gold: Karl Benjamin (AUT)\n\t2. Sliver: Kim Sangkyum (KOR)\n\t3. Bronze: Zamfirov Tervel (BUL)\n\nWomen’s Snowboard Halfpipe\n\t1. Gold: Choi Gaon (KOR)\n\t2. Sliver: Kim Chloe (USA)\n\t3. Bronze: Ono Mitsuki (JPN)\n\nMen’s Snowboard Halfpipe\n\t1. Gold: Totsuka Yuto (JPN)\n\t2. Sliver: James Scotty (AUT)\n\t3. Bronze: Yamada Ryusei (JPN)\n\nMixed Team Snowboard Cross\n\t1. Gold: Great Britain 1\n\t2. Sliver: Italy 1\n\t3. Bronze: France 2\n\nGeneral: \n\t\tSnowboarding is a fun mix of surfing, skateboarding, and skiing. It has become immensely popular as a winter sport, making its Olympic debut at the 1998 Games in Nagano. Here is everything you need to know about the Snowboard competition at Milano Cortina 2026.
+\n\nRules:\n\t\tIn the halfpipe, competitors perform a series of tricks while snowboarding down a slope with a semi-cylindrical shape. They are scored on the breadth and difficulty of the jumps.
+\n\t\tIn the parallel giant slalom, two snowboarders ride down two parallel tracks at the same time. During the qualifiers, each competitor rides down the two tracks (blue and red) once. The times from each run are added together, and the 16 best combined times advance to the elimination rounds. The fastest athlete in each group automatically qualifies for the next round.
+\n\t\tIn snowboard cross, timed qualifiers are held to determine the top 16 athletes, who compete in direct races involving four athletes per group on a track with jumps, moguls, and wide curves. Each heat determines the best two athletes for the next round; this process continues until the final. c.
+\n\t\tIn the Big Air event, competitors use a ramp to make jumps and perform a series of aerial tricks.
+\n\t\tIn slopestyle, athletes snowboard down a course with different types of structures (including rails and jumps) and are judged on the breadth, originality, and quality of their tricks.
+\n" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/snowboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="-22dp"
+        android:text="Snowboarding"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="101dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="goToHome"
+        android:text="Home"
+        app:layout_constraintBottom_toTopOf="@+id/snowboardTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
